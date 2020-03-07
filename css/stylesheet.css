@@ -1,0 +1,108 @@
+@font-face{
+    font-family: Cinzel-Decorative;
+    src: url(../fonts/CinzelDecorative-Regular.otf);
+}
+@font-face{
+    font-family: Cinzel-Decorative-Bold;
+    src: url(../fonts/CinzelDecorative-Bold.otf); 
+}
+@font-face{
+    font-family: Cinzel;
+    src: url(../fonts/Cinzel-Regular.otf);
+}
+@font-face{
+    font-family: Cinzel-Bold;
+    src: url(../fonts/Cinzel-Bold.otf); 
+}
+@font-face{
+    font-family: Poppins;
+    src: url(../fonts/Poppins-Regular.otf);
+}
+#main-background{
+    background:url(../img/bg.jpg) no-repeat;
+    background-size: cover;
+}
+#catalouge-background{
+    background: url(../img/cataloguebg.jpg) no-repeat;
+    background-size: cover;
+}
+#jumbo{
+    background-color:rgba(255, 255, 255, 0.096);
+    margin-top: 100px;
+}
+#jumbo-text{
+    color: white;
+    font-family: "Cinzel";
+    text-shadow: 0 0 5px gold;
+}
+#first-p
+{
+    color: black;
+    font-family: "Poppins";
+    text-shadow: 0 0 2px gold;
+}
+#second-p{
+    color: black;
+    font-family: "Poppins";
+    text-shadow: 0 0 2px gold;
+}
+#third-p{
+    color: black;
+    font-family: "Poppins";
+    text-shadow: 0 0 2px gold;
+}
+.display-4{
+    font-family: Cinzel-Bold;
+}
+#landingpage-footer{
+    margin-top: 125px;
+    background-color: 	#bf9b30;
+}
+#site-name{
+    font-family: Cinzel-Decorative-Bold;
+}
+#nav{
+    background-color: 	#bf9b30;
+}
+#nav-items{
+    font-family: Cinzel-Bold;
+}
+#jumbo-description{
+    font-family: Cinzel-Decorative-Bold;
+    color: white;
+}
+#footer{
+    font-family: Cinzel-Decorative-Bold;
+}
+#card-color{
+    background-color: rgb(48, 43, 43);
+    border-radius: 25px;
+}
+#card-name{
+    color: #ffbf00;
+    text-shadow: 0 0 5px black;
+    font-family: Cinzel-Decorative;
+}
+.card{
+    border-radius: 20px;
+    background-color: #bf9b30;
+}
+#btn{
+    font-family: Poppins;
+}
+#catalouge-footer{
+    background-color: #bf9b30;
+}
+#about-background{
+    background: url(../img/patrick-tomasso-2R5QtSqJtdY-unsplash.jpg) no-repeat;
+    background-size: cover;
+    
+}
+#about-jumbo{
+    background-color:rgba(255, 255, 255, 0.096);
+    margin-top: 300px;
+}
+#about-footer{
+    margin-top: 135px;
+    background-color: #bf9b30;
+}

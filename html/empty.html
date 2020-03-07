@@ -1,0 +1,194 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/main.css">
+   
+</head>
+<body>
+    <div id="cart-bg">
+        <nav class="navbar navbar-expand-sm mb-3" id="nav-catalogue">
+            <div class="container">
+              <a class="navbar-brand text-light font-weight-bold" href="index.html" id="site-name">Brasomon</a>
+                  <ul class="navbar-nav">
+                      <li class="nav-item px-3">
+                          <a class="nav-link" href="Catalogue.html" style="color: white;" id="nav-items">Home</a>
+                      </li>
+                      <li class="nav-item px-3">
+                          <a class="nav-link" href="../index.html#leather" style="color:white;" id="nav-items">About</a>
+                      </li>
+                      <li class="nav-item px-3">
+                        <a class="nav-link" href="Catalogue.html#anchor" style="color:white;" id="nav-items">Shop</a>
+                      </li>
+                      <li class="nav-item px-3">
+                        <a class="nav-link" href="contact.html" style="color:white;" id="nav-items">Contact</a>
+                    </li>
+                  </ul>
+            </div>
+        </nav>
+        <div class="row">
+            <aside class="col-lg-9">
+        <div class="card">
+        
+        <div class="table-responsive">
+        
+        <table class="table table-borderless table-shopping-cart">
+        <thead class="text-muted">
+        <tr class="text-uppercase">
+            <img src="../img/purchase.png" width="128px" height="128px" class="mx-auto d-block p-4" alt="">
+            <hr>
+          <th scope="col" id="cart-title" class="font-weight-bold">Product</th>
+          <th scope="col" width="120" id="cart-title" class="font-weight-bold">Quantity</th>
+          <th scope="col" width="120" id="cart-title" class="font-weight-bold">Price</th>
+          <th scope="col" class="text-right d-none d-md-block" width="200"> </th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>
+                <figure class="itemside align-items-center">
+                    <div class="aside"><img src="../img/couple-leather.jpg" id="cart-items" class="img-sm"></div>
+                    <figcaption class="info">
+                        <a href="" class="h4 font-weight-bold text-dark" id="item-name" >Couple Tags</a>
+                        <p class="text-muted small">Hand-crafted</p>
+                    </figcaption>
+                </figure>
+            </td>
+            <td>
+                <select class="form-control">
+                    <option id="options">1</option>
+                    <option id="options">2</option>
+                    <option id="options">3</option>
+                    <option id="options">4</option>
+                </select>
+            </td>
+            <td>
+                <div class="price-wrap">
+                    <var class="price">P200.00</var>
+                    <small class="text-muted">including VAT</small>
+                </div> <!-- price-wrap .// -->
+            </td>
+            <td class="text-right d-none d-md-block">
+            <a data-original-title="Save to Wishlist" title="" href="" class="btn btn-light" data-toggle="tooltip"> <i class="fa fa-heart"></i></a>
+            <a href="" class="btn btn-danger"> Remove</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <figure class="itemside align-items-center">
+                    <div class="aside"><img src="../img/cable organizer.jpg" id="cart-items" class="img-sm"></div>
+                    <figcaption class="info">
+                        <a href="" class="h4 font-weight-bold text-dark" id="item-name" >Cable Organizer</a>
+                        <p class="text-muted small">Hand-crafted</p>
+                    </figcaption>
+                </figure>
+            </td>
+            <td>
+                <select class="form-control">
+                    <option id="options">1</option>
+                    <option id="options">2</option>
+                    <option id="options">3</option>
+                    <option id="options">4</option>
+                </select>
+            </td>
+            <td>
+                <div class="price-wrap">
+                    <var class="price">P200.00</var>
+                    <small class="text-muted">including VAT</small>
+                </div> <!-- price-wrap .// -->
+            </td>
+            <td class="text-right d-none d-md-block">
+            <a href="" class="btn btn-danger btn-round"> Remove</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <figure class="itemside align-items-center">
+                    <div class="aside"><img src="../img/accessory organizer.jpg" id="cart-items" class="img-sm"></div>
+                    <figcaption class="info">
+                        <a href="" class="h4 font-weight-bold text-dark" id="item-name" >Accessory Holder</a>
+                        <p class="text-muted small">Hand-crafted</p>
+                    </figcaption>
+                </figure>
+            </td>
+            <td>
+                <select class="form-control">
+                    <option id="options">1</option>
+                    <option id="options">2</option>
+                    <option id="options">3</option>
+                </select>
+            </td>
+            <td>
+                <div class="price-wrap">
+                    <var class="price">P200.00</var>
+                    <small class="text-muted">including VAT</small>
+                </div> <!-- price-wrap .// -->
+            </td>
+            <td class="text-right d-none d-md-block">
+                <a data-original-title="Save to Wishlist" title="" href="" class="btn btn-light" data-toggle="tooltip"> <i class="fa fa-heart"></i></a>
+                <a href="" class="btn btn-danger btn-round"> Remove</a>
+            </td>
+        </tr>
+        </tbody>
+        </table>
+        
+        </div> <!-- table-responsive.// -->
+        
+        
+        
+            </aside> <!-- col.// -->
+            <aside class="col-lg-3">
+        
+        <div class="card mb-3">
+        <div class="card-body">
+        <form>
+            <div class="form-group">
+                <label>Have coupon?</label>
+                <div class="input-group">
+                    <input type="text" class="form-control" name="" placeholder="Coupon code">
+                    <span class="input-group-append">
+                        <button class="btn" id="checkout-coupon">Apply</button>
+                    </span>
+                </div>
+            </div>
+        </form>
+        </div> <!-- card-body.// -->
+        </div> <!-- card.// -->
+        
+        <div class="card">
+        <div class="card-body">
+                <dl class="dlist-align">
+                  <dt>Total price:</dt>
+                  <dd class="text-right">P600.00</dd>
+                </dl>
+                <dl class="dlist-align">
+                  <dt>Discount:</dt>
+                  <dd class="text-right text-danger">- 0.00</dd>
+                </dl>
+                <dl class="dlist-align">
+                  <dt>Total:</dt>
+                  <dd class="text-right text-dark b"><strong>P600.00</strong></dd>
+                </dl>
+                <hr>
+                <a href="confirmation.html" class="btn btn-block" id="make-purchase"> Make Purchase </a>
+                <a href="Catalogue.html" class="btn btn-block" id="continue-shopping">Continue Shopping</a>
+        </div> <!-- card-body.// -->
+        </div> <!-- card.// -->
+        
+            </aside> <!-- col.// -->
+        </div> <!-- row.// -->
+    </div>
+    <footer class="page-footer font-small blue" id="footer">
+        <div class="footer-copyright text-center py-3 text-light">© 2020 Copyright
+        </div>
+    </footer>
+    <script src="../js/jquery-3.3.1.slim.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/main.js"></script>   
+</body>
+</html>

@@ -1,0 +1,259 @@
+html{
+    scroll-behavior: smooth;
+}
+
+#all{
+    overflow-y: hidden;
+}
+
+#main-background{
+    background: linear-gradient(to right,rgba(0, 0, 0, 0.692), rgba(34, 33, 33, 0.5)), url(../img/landing\ page\ 1.jpg) no-repeat;
+    background-size: cover;
+}
+
+#cart-bg{
+    background: linear-gradient(to right,rgba(0, 0, 0, 0.692), rgba(34, 33, 33, 0.5)), url(../img/landing\ page\ 1.jpg) no-repeat;
+    background-size: cover;
+}
+
+#nav {
+    background: #00000000;
+}
+
+#jumbo{
+    background: #00000000;
+    margin-top: 100px;
+}
+
+#jumbo-text{
+    font-family: 'Karla', sans-serif;
+}
+
+#jumbo-description{
+    color: white;
+}
+
+footer{
+    background: rgba(255, 255, 255, 0);
+    color: white;
+}
+
+#landingpage-footer{
+    margin-top: 125px;
+    background-color: 	#00000000;
+}
+
+#text-leather{
+    font-family: 'Karla', sans-serif;
+    color: #603e25;
+}
+
+#logo{
+    width: 150px;
+    height: 150px;
+}
+
+#nav{
+    font-family: 'Karla', sans-serif;
+}
+
+#nav-catalogue{
+    font-family: 'Karla', sans-serif;
+    background-color: #603e25;
+}
+
+#footer{
+    background-color: #603e25;
+}
+
+#leather-tags{
+    width: 256px;
+    height: 256px;
+}
+
+#carousel-img{
+    width: 720px;
+    height: 540px;
+}
+#whatsnew{
+    width: 50%;
+    font-family: 'Karla', sans-serif;
+    color: #603e25;
+}
+
+#whatsnew-p{
+    line-height: 40px;
+}
+
+#slider4{
+    text-align: left;
+}
+
+/*card{
+    width: 8rem;
+    background-color: #00000000;
+    border: 1px solid #603d25b0;
+    border-radius: 10px;
+}
+
+.card:hover{
+    border: 2px solid #603e25;
+    transition: 0.20s;
+}
+*/
+#card-name{
+    font-family: 'Karla', sans-serif;
+    color: #603e25;
+}
+
+#card{
+    width: 256px;
+}
+
+#cart-card{
+    background-color: white;
+    width: 256px;
+}
+
+#leather-rm{
+    border: 1px solid #603e25;
+    border-radius: 25px;
+}
+#cart{
+    width: 128px;
+    height: 128px;
+}
+
+.cart-card{
+    max-width: 40rem;
+    max-height: 40rem;
+}
+
+#cart-items{
+    width: 128px;
+    height: 128px;
+}
+
+#cart-title{
+    font-family: 'Karla', sans-serif;
+    color: #603e25;
+}
+
+.jumbotron{
+    background-color: rgba(255, 255, 255, 0.39);
+}
+
+#leather-cart{
+    border: 1px solid #603e25;
+    border-radius: 25px;
+}
+
+#checkout-coupon{
+    border: 1px solid #603e25;
+}
+
+#checkout-coupon:hover{
+    background-color: #603e25;
+    color: white;
+}
+
+#make-purchase{
+    background-color: #603e25;
+    color: white;
+}
+
+#make-purchase:hover{
+    background-color: #663919;
+    color: white;
+}
+
+#continue-shopping{
+    border: 2px solid #603e25;
+    color: #603e25;
+}
+
+#continue-shopping:hover{
+    background-color: #bc9f8d;
+    color: white;
+}
+
+#leather-rm:hover{
+    background-color: #603e25;
+    color: white;
+}
+
+#leather-cart:hover{
+    background-color: #bc9f8d;
+    color: white;
+}
+
+#options{
+    font-family: 'Karla', sans-serif;
+}
+
+.price-wrap{
+    font-family: 'Karla', sans-serif;
+}
+
+.payment-success{
+    font-family: 'Karla', sans-serif;
+}
+
+.success-msg{
+    font-family: 'Karla', sans-serif;
+}
+
+.carousel,
+.item,
+.active {
+    height: 100%;
+    margin-bottom: 60px;
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
+#slider4{
+    width: 720px;
+}
+
+#catalogue-whatsnew{
+    margin-left: 0;
+    margin-right: 100%;
+}
+
+#modal-dsc{
+    font-family: 'Karla', sans-serif;
+    color: #603e25;
+}
+
+.confirm-card{
+    width: 18rem;
+}
+
+.feedback-form{
+    width: 18rem;
+}
+
+.feedback-card{
+    width: 60rem;
+    background-color: #00000000;
+}
+
+.social-card{
+    width: 60rem;
+    background-color: white;
+    border: 5px solid #bc9f8d;
+    border-radius: 25px;
+}
+
+#submit-button{
+    background-color: #603e25;
+    color: white;
+}
+
+#submit-button:hover{
+    background-color: #bc9f8d;
+    color: #663919;
+}
